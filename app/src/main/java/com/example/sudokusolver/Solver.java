@@ -119,7 +119,7 @@ public class Solver {
 
 
     public void setNumberPos(int num) {
-        if (this.selected_row != -1 && this.selected_column != -1){
+        if (this.selected_row != -1 && this.selected_column != -1 && !check(this.selected_row - 1, this.selected_column - 1)){
             if (this.board[this.selected_row-1][this.selected_column-1] == num) {
                 this.board[this.selected_row-1][this.selected_column-1] = 0;
 
@@ -127,6 +127,7 @@ public class Solver {
             else{
                 this.board[this.selected_row-1][this.selected_column-1] = num;
             }
+
         }
     }
 
