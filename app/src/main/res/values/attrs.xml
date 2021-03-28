@@ -4,6 +4,8 @@
         <attr name="boardColor" format="color"/>
         <attr name="cellFillColor" format="color"/>
         <attr name="cellsHighlightColor" format="color"/>
+        <attr name="letterColor" format="color"/>
+        <attr name="letterColorSolve" format="color"/>
 
     </declare-styleable>
 </resources>
